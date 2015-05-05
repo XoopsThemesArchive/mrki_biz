@@ -1,0 +1,364 @@
+/*---------------------------------------全局定义-------------------------------------*/
+table {
+	width: 100% ;
+	
+}
+table td {
+	vertical-align: top;
+	font-family: Tahoma,Verdana,Arial;
+	
+}
+div#content { padding: 5px; text-align: left;}
+div#content td { padding: 3px;}
+hr {
+	color: Black;
+	height: 1px;
+}
+body {
+	font-family: Tahoma,Verdana,Arial;
+	font-weight: normal;
+	color: Black;
+	font-size: 12px;
+	background:#D0D0D0;
+	
+}
+a {
+	font-family: Tahoma,Verdana,Arial;
+	font-size: 12px;
+	text-decoration: none;
+	color: #B22222;
+	font-style: normal
+} /*color mjenja boju slova u naslovu*/
+a:hover {
+	font-family: Tahoma,Verdana,Arial;
+	font-size: 12px;
+	color: Maroon;
+	font-style: normal
+}
+td {
+	font-family: Tahoma,Verdana,Arial;
+	color: Black; /*boja zadrzaja vijesti*/
+	font-size: 12px;
+	font-weight: normal;
+}
+input {
+	background-color : White; /*boja polja gdje nesto unosis*/
+	color : #000000;
+	font-family : Tahoma, Verdana, Arial;
+	font-size : 12px;
+	font-weight : normal;
+	border-color : #000000;
+	border-top-width : 1px;
+	border-right-width : 1px;
+	border-bottom-width : 1px;
+	border-left-width : 1px;
+	text-indent : 2px;
+}
+textarea {
+	font-family: Tahoma,Verdana,Arial;
+	font-size: 12px;
+	background-color : White;
+	/*boja polja gdje text pises*/
+	font-weight : normal;
+	border-color : #000000;
+	border-top-width : 1px;
+	border-right-width : 1px;
+	border-bottom-width : 1px;
+	border-left-width : 1px;
+	text-indent : 2px;
+}
+select {font-family: Tahoma,Verdana,Arial, sans-serif; font-size: 12px;font-weight : bold;background-color:#F5F5F5; } 
+img { border: 0;}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: disc inside;}
+/*---------------------------------------基本定义-------------------------------------*/
+.frame{	width: 752px;}
+.odd {
+	background-color: #F9F9F9;
+	padding:3px;
+}
+.outer {
+	background-color: #D9E3EB;
+	padding:3px;
+	
+}
+.even {
+	background-color: #EDEDED;
+	padding: 3px;
+	
+}
+th {
+	background-image: url(l_title.gif);
+	text-align: left;
+	padding: 3px;
+	color: Black;
+}
+.head {
+	background-color: #E9E9E9;
+	padding: 3px;
+	font-weight: bold;
+}
+.foot {
+	background-color: #FEFEFE;
+	padding: 3px;
+	text-align: center;
+	color: Black;
+}
+.footer {
+	border: 1px solid #DF6900;
+	background-color: #DF6900;
+	padding: 5px;
+	text-align: center;
+	color: Black;
+	line-height: 20px;
+}
+/*---------------------------------------代码引用-------------------------------------*/
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+/*---------------------------------------用户菜单-------------------------------------*/
+.-------------- menu{}
+td#usermenu a { /*mjenjas glavni meni*/
+	background: White;
+	font-weight: normal;
+	padding: 0px 0px 0px 30px;
+	border-bottom: 1px dashed #CCCCCC;
+	border-top: 1px dashed #CCCCCC;
+	width: 120px;
+	color: Black;
+	/*boja slova na glavnom meniu*/
+}
+td#usermenu a:hover {
+	background-color: #FCFCFC;
+	text-decoration: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid  #CCCCCC;
+	color: #B22222;
+}
+td#usermenu a.menuTop {
+	text-decoration: none;
+	border-top: 1px dashed #CCCCCC;
+}
+td#usermenu a.highlight {padding-left: 30px;background-color: #fcc; border-right: 1px solid #666666; border-bottom: 1px solid #ADACAD; border-left: 1px solid silver;text-decoration: none;}
+
+/*---------------------------------------主要菜单-------------------------------------*/
+td#mainmenu a {
+	background: White;
+	font-weight: normal;
+	padding: 0px 0px 0px 30px;
+	border-bottom: 1px dashed  #CCCCCC;
+	border-top: 1px dashed #CCCCCC;
+	width: 120px;
+	color: Black;
+}
+td#mainmenu a:hover {
+	background-color: #FCFCFC;
+	text-decoration: none;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid  #CCCCCC;
+	color: #B22222; /*boja slova hovera na main menu*/
+}
+td#mainmenu a.menuTop {
+	text-decoration: none;
+	border-top: 1px solid #D9E3EB;
+	padding: 0px 0px 0px 30px;
+   color: Black;
+}
+td#mainmenu a.menuMain {padding-left: 30px;}
+
+td#mainmenu a.menuSub {
+	padding-left: 42px;
+	text-decoration: none;
+	width: 108px;
+	color: #555555;
+	background: #FFFFFF; /*boja slova submenu*/
+}
+/*---------------------------------------区块定义-------------------------------------*/
+.block_table{ width: 100%}
+.left_block_table { width: 160px; }
+.right_block_table { width: 160px;}
+.cc_block_table { width: 98%; }
+.cl_block_table { width: 96%; }
+.cr_block_table { width: 96%; }
+.content_table { width: 98%; }
+/*---------------------------------------左 区 块-------------------------------------*/
+.--------------- left{}
+.left_block {
+	border-left: 1px solid Silver;
+	width: 160px;
+}
+.left_block_title {
+	background-color: #FFFFFF;
+	color: Black;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-left: 30px;
+	background-image:url(l_title.gif);
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 30px;
+}
+.left_block_content {
+	line-height: 20px;
+	width: 160px;
+	padding: 4px;
+	color: Black;
+}
+/*---------------------------------------右 区 块-------------------------------------*/
+.-------------- right{}
+.right_block{
+	width: 160px;
+	border-right: 1px solid Silver;
+}
+.right_block_title {
+	background-color: #FFFFFF;
+	color: Black;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-left: 30px;
+	background-image:url(l_title.gif);
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 30px;
+}
+.right_block_content {
+	padding: 4px;
+	line-height: 20px;
+	width: 160px;
+}
+/*---------------------------------------中央区块-------------------------------------*/
+.-------------- conter{}
+.conter_block{
+	width: 100%;
+	border-right: 1px solid Silver;
+	border-left: 1px solid Silver;
+}
+.conter_block_title {
+	color: Black;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-left: 20px;
+	background-image: url(c_title.gif);
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 14px;
+	border: 1px solid #D9E3EB;
+	background-color: #F6F8FA;
+}
+.conter_block_content {
+	padding: 8px 4px;
+	background: #FFFFFF;
+	border-right: 1px solid Silver;
+	border-bottom: 1px solid Silver;
+	border-left: 1px solid Silver;
+}
+
+.cc_block_title {
+	color: #B22222;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-left: 20px;
+	background-image: url(c_title.gif);
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 14px;
+	border: 1px solid #D9E3EB;
+	background-color: #B22222;
+}
+.cc_block_content {
+	padding: 8px 10px;
+	background: #FFFFFF;
+	border-right: 1px solid #D9E3EB;
+	border-bottom: 1px solid #D9E3EB;
+	border-left: 1px solid #D9E3EB;
+	line-height: 20px;
+}
+
+.conter_content {
+	background: #FFFFFF;
+}
+
+
+/*---------------------------------------模组定义-------------------------------------*/
+/*---------------------------------------评    论-------------------------------------*/
+.-------------- com{}
+.comTitle {
+	font-weight: bold;
+	margin-bottom: 2px;
+	
+}
+.comText {padding: 2px;}
+.comUserStat {
+	font-size: 12px;
+	color: #333333;
+	font-weight:bold;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+	margin: 2px;
+	padding: 2px;
+}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #333333; font-weight:bold; font-size: 12px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 12px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+/*---------------------------------------新闻消息-------------------------------------*/
+.-------------- news{}
+.item {}
+.itemHead {
+	color: #B22222; /*boja : u naslovu*/
+	padding: 2px;
+	font-weight: bold;
+	text-align: left;
+	border-bottom: thin dashed Black;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.itemInfo {
+	text-align: right;
+	padding: 3px;
+	color: Black; /*boja onog posted by*/
+}
+.itemTitle a {
+	font-size: 14px;
+	font-weight: bold;
+	background-color: transparent;
+	
+}
+.itemTitle a:hover {font-size: 14px; font-weight: bold; background-color: transparent;}
+.itemPoster {
+}
+.itemPostDate {
+
+}
+.itemStats {
+
+}
+.itemBody {
+	text-align: left;
+	border-bottom : thin dotted Black;
+	
+}
+.itemText {
+	margin-top: 7px;
+	margin-bottom: 7px;
+	line-height: 1.5em;
+}
+.itemText:first-letter {}
+.itemFoot {
+	text-align: right;
+	padding: 3px;
+	color: #B22222;
+}
+.itemAdminLink {}
+.itemPermaLink {}
+/*---------------------------------------论    坛-------------------------------------*/
+.------------- forum {}
